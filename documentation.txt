@@ -1,0 +1,30 @@
+Project 1
+COP 4620 Construction of Language Translators
+Kourtnie Jenkins
+Dr. Roger Eggen
+Due: 9/6/2018
+Submitted: 9/6/2018
+
+--------------------------------------------------------------------------
+ Description:
+--------------------------------------------------------------------------
+
+    The project uses the grammar definition in the appendix of the 
+COP 4620 textbook to guide the construction of a lexical analyzer. 
+The lexical analyzer will return tokens as described and act as input 
+to the parser which will be created in Project 2. Note however, that
+the grammar definitions have been enhanced by adding a keyword 
+"float" as a data type to the material found on page 493 and beyond.
+
+--------------------------------------------------------------------------
+Execution:
+--------------------------------------------------------------------------
+
+Compiling the program from the command line:
+
+	$ make
+
+Then program can then be ran using the following command:
+(note that ./ is optional depening on your system configuration)
+
+	./p1 fileName
